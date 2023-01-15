@@ -6,37 +6,31 @@ server:
 wechat:
   config:
     #配置一个文字的模板ID
-    singleTemplateId:
+    singleTemplateId:_amLwlVUBehd49dW3i4PQkxyU2NwbFog4y003khPzWA
     template:
       #早安模板
       morningTemplate:
         #模板ID
-        templateId: 填写模板ID
+        templateId: 3grf20jPMtkVZhK0F29x6cakUIce_iZl3pKjlzQPl2U
         #是否关注的用户全发送，ture为是，当值为ture时，sendOpenId 为排除发送对象的微信用户，当值为false为否，sendOpenId为发送对象的微信用户
         allSend: true
         filterOpenIds:
 #          - oK0U562Y5ijqYRpGUtNRs0vxxxWU
         parameter:
           #这是默认的设置，如果有用户没设置参数，就按此参数
-          default:
+          o5ZF_5-8iNnWwWEP9ACicawfA7MI:
             #早安话语
-            title: 早上好呀呀鸭
+            title: 老婆早上好呀~
             #你们的相遇时间
-            meetDate: '1996-06-18'
-            city: 广州
+            meetDate: '2022-11-28'
+            city: 蒙城
             #居住地点，高德地图api下载查询 https://lbs.amap.com/api/webservice/download
-            cityCode: 440100
-            constellation: 双子座
+            cityCode: 341622
+            constellation: 射手座
           #把‘填写你的需要特定配置的微信用户号’覆盖位微信用户ID，可以对照正确填写好的配置示例，多用户可以按照格式继续添加下去
-          填写你的需要特定配置的微信用户号:
-            title: 早上好呀呀鸭
-            meetDate: '2021-08-11'
-            city: 肇庆
-            cityCode: 440600
-            constellation: 狮子座
       #颜文字模板
       emoticonsTemplate:
-        templateId: 填写模板ID
+        templateId: 3grf20jPMtkVZhK0F29x6cakUIce_iZl3pKjlzQPl2U
         allSend: true
         filterOpenIds:
         parameter:
@@ -45,5 +39,5 @@ wechat:
 #发送者个人信息
 personal:
   info:
-    constellation: 双子座
+    constellation: 射手座
 
