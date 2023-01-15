@@ -13,7 +13,7 @@ wechat:
 #          - oK0U562Y5ijqYRpGUtNRs0vxxxWU
         parameter:
           #这是默认的设置，如果有用户没设置参数，就按此参数
-          o5ZF_5-8iNnWwWEP9ACicawfA7MI:
+          default:
             #早安话语
             title: 老婆早上好呀~
             #你们的相遇时间
